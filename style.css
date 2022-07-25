@@ -65,8 +65,8 @@ body{
 
 
 .figuras{
-    margin-left: 20px;
-    max-width: 50%;
+    
+    max-width: 40%;
       
     
 }
@@ -106,7 +106,7 @@ body{
 
 .personagem{
     display: grid;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: 50% 50%;
     justify-content: center;
     
     
