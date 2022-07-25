@@ -1,6 +1,6 @@
 body{
-    background: linear-gradient(-45deg, #0c0129, #180475f8, #0d0152, #090249 );
-    color: rgb(209, 208, 208);
+    background: rgb(255, 255, 255);
+    color: rgb(58, 58, 58);
     text-align: justify;
     font-family: 'Nanum Gothic', sans-serif;
     
@@ -10,9 +10,9 @@ body{
 #historia{
     text-align: justify;
     font-size: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin:  40px;
     padding: 10px;
+    font-weight: bold;
     
     
 }
@@ -20,7 +20,7 @@ body{
 .titulos{
     text-align: center;
     font-size: 30px;
-    color:rgb(236, 9, 9); 
+    color:#090249; 
     font-weight: bold;
     padding-top: 50px;
     
@@ -37,12 +37,11 @@ body{
 
 .nomes{
     background:none;
-    padding-left: 30px;
+    padding: 5px;
     border-style: none;
     text-decoration: underline;
-    font-family:cursive;
-    color: rgb(247, 247, 247);
-    font-size: 20px;
+    color: rgb(58, 58, 58);
+    font-size: 25px;
     cursor: pointer;
     
     
@@ -51,30 +50,25 @@ body{
 
 .imagens{
    
-    width: 30%;  
+    width: 50%;
+    
+
 }
 .resumo{
+    margin: 15px;
     font-size: 16px;
-    padding: 20px;
+    padding: 10px;
     text-align: justify;
 }   
 
-span{
-    font-size: 20px;
-    color: black;
-    border-style: outset;
-    border-color: white;
-    border-radius: 40px;
-    border-width: 2px;
-    padding: 2px;
-    font-weight: bold;
 
-}
 
 
 .figuras{
     margin-left: 20px;
-    max-width: 40%;    
+    max-width: 40%;
+      
+    
 }
 .grid{
     display: none;
@@ -92,34 +86,30 @@ span{
     top: 0px;
     z-index: 10;
     cursor: pointer;
+    
     background-color:#090249;
     
-    
-    
-   
+  
 }
 
-.links{
+.nome_personagem{
+    font-size: 30px;
+    color:rgb(180, 5, 5);
+    font-weight: bold;
     
-    float: left;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    font-size: 20px;
-    text-align: left;
-    
-    
-    
-}
 
-.links:hover {
-    font-size: 25px;
-    text-decoration: underline;
+    
+    
+
+
 }
 
 .personagem{
     display: grid;
     grid-template-columns: 30% 30% 30%;
     justify-content: center;
+    
+    
     
 }
 
